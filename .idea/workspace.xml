@@ -4,40 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860d94a6-0449-430d-b080-f96bbdafc38a" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/setProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/Main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/member/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/member/Signup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/css/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/comtroller/BaordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/comtroller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/config/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Dto/BoardDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Entity/Board/BoardEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Entity/Board/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Entity/Member/MemberEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Entity/Member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/MemberSerivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="860d94a6-0449-430d-b080-f96bbdafc38a" name="변경" comment="2023-01-12 / 11 : 34 [ 게시판 one day one commit start.. ]">
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/board/BoardList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/board/BoardWrite.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/frontend/src/css/BoardWrite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web/comtroller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/src/Component/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/src/Component/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/src/Component/member/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/src/Component/member/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/comtroller/BaordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/comtroller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/comtroller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/domain/Dto/BoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Dto/BoardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/MemberSerivce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/domain/Service/MemberSerivce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,15 +86,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/안태섭/IdeaProjects/web/src/main/java/com/web/domain/Entity/Board",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/안태섭/IdeaProjects/web/src/main/java/com/web/domain/Entity/Board&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\안태섭\IdeaProjects\web\src\main\java\com\web\domain\Entity\Board" />
@@ -176,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672821529308</updated>
     </task>
+    <task id="LOCAL-00001" summary="2023-01-12 / 11 : 34 [ 게시판 one day one commit start.. ]">
+      <created>1673490973555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673490973555</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +180,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023-01-12 / 11 : 34 [ 게시판 one day one commit start.. ]" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023-01-12 / 11 : 34 [ 게시판 one day one commit start.. ]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
