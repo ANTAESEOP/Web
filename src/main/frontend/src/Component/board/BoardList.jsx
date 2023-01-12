@@ -22,6 +22,7 @@ export default function BoardList( props ) {
         <Table striped bordered hover size="sm">
             <thead>
                 <tr>
+                  <th> 글 번호 </th>
                   <th> 글 제목 </th>
                   <th> 글 내용 </th>
                 </tr>
@@ -32,6 +33,7 @@ export default function BoardList( props ) {
                 <>
                     <tbody>
                         <tr>
+                            <td> { b.bno } </td>
                             <td> { b.btitle } </td>
                             <td> { b.bcontent } </td>
                         </tr>
